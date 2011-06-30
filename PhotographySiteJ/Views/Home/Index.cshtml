@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var hideGallery = $('#hide-gallery');
+
+        $(hideGallery).click(function () {
+            if ($('#gallery').is(':hidden')) {
+                $('#gallery').slideDown('fast');
+                $(hideGallery).html('Hide gallery [-]');
+            }
+            else {
+                $('#gallery').slideUp('fast');
+                $(hideGallery).html('Show gallery [+]');
+            }
+        })
+
+        $(hideGallery).hover(function () {
+            $(hideGallery).css('text-shadow', '0px 0px 10px');
+        })
+        $(hideGallery).mouseleave(function () {
+            $(hideGallery).css('text-shadow', '');
+        })
+    });
+</script>
+
+<h2>@ViewBag.Message</h2>
+<p>
+    Below you will find just a sample of photos taken for some of our clients. You can navigate to other, more specific, galleries using the links above.
+</p>
+
+<div id="slideshow">
+@{
+    Html.RenderPartial("_Slideshow");
+}
+</div>
+
+<div id="hide" style="text-align:center">
+    <label id="hide-gallery">Hide gallery [-]</label>
+</div>
+
+<div id="gallery">
+@{
+    Html.RenderPartial("_Gallery");
+}
+</div>

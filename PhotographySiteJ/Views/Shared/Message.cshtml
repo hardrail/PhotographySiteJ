@@ -1,0 +1,28 @@
+﻿@model PhotographySiteJ.Models.MessageModel
+@{
+    ViewBag.Title = "Message";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        setTimeout(PageRedirect, 10000);
+    });
+
+    function PageRedirect() {
+        window.location = '/Account/Admin';
+    }
+</script>
+
+<div id="title-text">
+    <h1> @Html.Encode(Model.TitleText) </h1>
+    <br />
+    <br />
+    <p id="message-text">
+        @Html.Encode(Model.MessageText)
+    </p>
+    <br />
+    <p>
+        (you will be automatically redirected from this page in a about 10 seconds)
+    </p>
+</div>

@@ -1,0 +1,69 @@
+﻿/*Toggle Area*/
+#del-menu {display:none;background:#F5F5F5;position:absolute;}
+#del-menu .toggle {float:right;width:9px; padding:5px; cursor:pointer; border-top:1px solid white; border-left:1px solid #E0E0E0; color:#999;}
+#del-menu ul.navmenu li:first-child .toggle{border-width:0 0 0 1px;}
+
+/*Menu Setup*/
+#del-menu ul{padding:0; margin:0; width:150px;border-radius:5px;box-shadow:0px 0px 20px;}
+#del-menu ul ul{border:1px solid #CCC;}
+#del-menu ul.navmenu li {margin:0; list-style:none;}
+/*Links*/
+#del-menu ul.navmenu a, #del-menu ul.navmenu a:visited {text-decoration:none; padding:5px; display:block; color:#008FDD;}
+#del-menu ul.navmenu ul.submenu a:hover{background:#FFF4D2; color:#333;}
+/*Heading Outer div*/
+#del-menu ul.navmenu .menutop{border:1px solid #CCC; border-width:0 1px; overflow:hidden; width:150px; background:#F9F9F9; }
+/*Header Links*/
+#del-menu ul.navmenu .menutop a{width:120px;float:left;margin:0 0 1px 0; border-top:1px solid white;}
+/*Header Link Hover*/
+#del-menu ul.navmenu .menutop a:hover{color:#333;}
+/*Removes white border for the first header*/
+#del-menu ul.navmenu li:first-child .menutop a {border-width:0px;}
+
+/*Set exit item color */
+#del-menu #del-menu-exit {background:#F75D59;color:White}
+
+/*Single Menu Width Fix*/
+#del-menu ul.navmenu .menusingle a{width:140px;}
+
+/*Border Radius and Special Border Width*/
+#del-menu ul.navmenu li:first-child .menutop{border-width:1px 1px 0 1px; -moz-border-radius:5px 5px 0 0;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;}
+#del-menu ul.navmenu li:last-child .menutop{border-width:0px 1px 1px 1px; -moz-border-radius:0 0 5px 5px; -webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;}
+#del-menu ul.navmenu li:last-child ul.submenu{-moz-border-radius:0 0 5px 5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;}
+#del-menu ul.navmenu li:last-child .menutop-open{-moz-border-radius:0;-webkit-border-radius:0px; border-width:0 1px;}
+
+#del-menu ul li { cursor:pointer }
+
+#admin-gallery-table
+{
+	box-shadow:0px 0px 5px;	
+	text-shadow:0px 0px 0px;
+}
+#admin-gallery-table td
+{
+	font-size:small;
+}
+#admin-gallery-table img
+{
+	height: 40px; width: 40px;
+}
+#message
+{
+	display:none;
+}
+#gallery-upload-div
+{
+	font-size:small;
+}
+#gallery-upload-div input
+{
+	font-size:small;
+}
+#add-fileupload
+{
+    width:15px; height:15px; cursor:pointer;
+}
+
+
+#upload-controls label.errors { color:Red; font-size:smaller; }
+#pager img { width:15px;height:15px; cursor:pointer;}
+#page-text {width:50px; text-align:center;}

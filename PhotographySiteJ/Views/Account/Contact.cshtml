@@ -1,0 +1,47 @@
+﻿@model PhotographySiteJ.Models.Contact
+
+@{
+    ViewBag.Title = "Contact";
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#contact-container input').hover(function () {
+            $(this).css('box-shadow', '0px 0px 10px');
+        })
+        $('input[type=text]').mouseleave(function () {
+            $(this).css('box-shadow', '');
+        })
+    });
+</script>
+
+<h2 id="contact-header">Please fill out the form below and submit and all replies will be sent to your replyto: email address.</h2>
+
+@using (Html.BeginForm())
+{
+    <div id="contact-container">
+        <fieldset>
+        <legend id="contact-legend">Contact Form</legend>        
+            <p>
+                @Html.LabelFor(m => m.ContactEmail) <br />
+                @Html.TextBoxFor(m => m.ContactEmail, new { id = "email-box" })
+                @Html.ValidationMessageFor(m => m.ContactEmail)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Subject) <br />
+                @Html.TextBoxFor(m => m.Subject, new { id = "subject-box" })
+                @Html.ValidationMessageFor(m => m.Subject)
+            </p>
+            <p>
+                @Html.LabelFor(m => m.Message) <br />
+                @Html.TextAreaFor(m => m.Message, new { id="comment-box", style="width:1000px;height:200px" })
+                <br />
+                @Html.ValidationMessageFor(m => m.Message)
+            </p>
+            <p>
+                <input type="submit" value="Submit" id="cmd-submit" />
+            </p>
+        </fieldset>
+    </div>
+
+}

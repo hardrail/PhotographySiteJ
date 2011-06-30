@@ -1,0 +1,114 @@
+﻿body
+{
+	color: #333333;
+	font-family: Century Gothic, sans-serif;
+	font-size: 1em;
+}
+
+#hide-gallery
+{
+	cursor:pointer;
+}
+#overlay
+{
+	position: fixed;
+	z-index: 9000;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	display:none;
+}
+
+#aniContain
+{
+	position:fixed;
+	top: 45%;
+	left: 50%;
+	margin-left: -320px;
+	width:1000px;
+	height:750px;
+	display:none;
+}
+
+#aniContain #SelectedPic
+{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px;
+	cursor: pointer;
+}
+
+#IndexPictureList li
+{
+	display:inline; 
+	margin-right:1.5em; 
+	cursor:pointer;
+}
+
+#IndexPictureList img
+{
+	box-shadow:0px 0px 20px #000; 
+	border-radius: 5px;
+	height: 60px;
+	width: 60px;
+}
+
+#gallery-list ul
+{
+	list-style:none;
+}
+
+#gallery-list li
+{
+	display:inline;
+	margin-right: 1em;
+}
+
+#gallery-list img
+{
+	height: 60px;
+	width: 60px;
+	box-shadow:0px 0px 20px #000;
+	border-radius: 5px;
+}
+
+#contact-header
+{
+	font-size: medium;
+}
+
+#contact-legend
+{
+	font-size: small;
+}
+
+#comment-box, #email-box, #subject-box, #cmd-submit
+{
+	font-size:smaller;
+	font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+	color: #696969;
+}
+
+#cmd-submit
+{ box-shadow:0px 0px 10px; }
+
+#valid-box { font-size:small  }
+
+#senior-picture-list
+{
+    list-style:none;
+}
+
+#title-text
+{
+	font-size:medium;
+}
+#message-text
+{
+	font-size:small;
+}

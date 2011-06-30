@@ -1,0 +1,13 @@
+﻿#slideshow-container
+{
+	text-align: center;
+	display:none;
+}
+
+#slideshowimage
+{
+	display: none;
+	width: 350px;
+	height: 300px;
+	box-shadow: 0px 0px 20px #000;
+}

@@ -1,0 +1,28 @@
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.dll
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.pdb
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.dll
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.xml
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\ResolveAssemblyReference.cache
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.dll
+c:\users\svessels\documents\visual studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.pdb
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.dll
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.pdb
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.dll
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.xml
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.dll
+C:\Users\steve\Documents\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.pdb
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.dll
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.pdb
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.dll
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.xml
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.dll
+C:\Users\svessels\Downloads\JensSite_6-3-2011\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.pdb
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.dll
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.pdb
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.dll
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.xml
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.dll
+C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.pdb
