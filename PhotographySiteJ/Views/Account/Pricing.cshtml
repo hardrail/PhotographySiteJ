@@ -3,10 +3,69 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div>
+<script type="text/javascript">
+    /// <reference path = "/Scripts/jquery-1.5.1-vsdoc.js"/>
+    var divs = [];
+    var divCtr;
+    $(document).ready(function () {
+        $('#pricing div').hide();
+        $('#pricing div').each(function () {
+            divs.push($(this).attr('id'));
+        })
+
+        divCtr = 0;
+
+        $('#pricing div').hover(function () {
+            $(this).css('box-shadow', '0px 0px 10px');
+        })
+        $('#pricing div').mouseleave(function () {
+            $(this).css('box-shadow', '0px 0px 5px');
+        })
+
+        var timer = setInterval(function () {
+            $('#pricing #' + divs[divCtr].toString()).fadeIn('slow');
+            divCtr++;
+
+            if (divCtr == divs.length) {
+                clearInterval(timer);
+            }
+        }, 700);
+    });
+</script>
+
+<div id="pricing">
     <p>
-        Below is the pricing structure broken out by sitting type.
-    
+        Below is the pricing structure broken out by sitting type.    
     </p>
+    <div id="senior-pictures-div">
+        <p><b>Senior Pictures</b></p>
+        <img class="pic-icon" src="../../Content/Icons/senior-picture-icon.jpg" height="50" width="50" alt="error"/>
+        <ul>
+            <li>1 hour: $49.99</li>
+            <li>2 hours: $99.99</li>
+            <li>3 hours: $129.99</li>
+            <li>Unlimited: $299.99</li>
+        </ul>
+    </div>
+
+    <div id="maternity-pictures-div">
+        <p><b>Maternity Pictures</b></p>
+        <img class="pic-icon" src="../../Content/Icons/baby-icon.jpg" height="50" width="50" alt="error" />
+        <ul>
+            <li>2 poses: $99.99</li>
+            <li>3 poses: $129.99</li>
+            <li>4 poses: $149.99</li>
+            <li>6 poses: $179.99</li>
+            <li>8 poses: $199.99</li>
+        </ul>
+    </div>
+
+        <div id="wedding-pictures-div">
+        <p><b>Wedding Pictures</b></p>
+        <img class="pic-icon" src="../../Content/Icons/wedding-icon.jpg" height="50" width="50" alt="error"/>
+        <p>Pricing depends on package selected. Please contact us
+        using the contact form on the webpage to discuss your specific
+        package detal.</p>
+    </div>
 
 </div>

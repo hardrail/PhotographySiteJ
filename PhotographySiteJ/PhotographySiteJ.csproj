@@ -75,6 +75,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Admin.css" />
+    <Content Include="Content\Icons\baby-icon.jpg" />
+    <Content Include="Content\Icons\senior-picture-icon.jpg" />
+    <Content Include="Content\Icons\wedding-icon.jpg" />
     <Content Include="Content\images-global\zoom\closebox.png" />
     <Content Include="Content\images-global\zoom\spacer.gif" />
     <Content Include="Content\images-global\zoom\zoom-caption-fill.png" />
@@ -164,6 +167,7 @@
     <Content Include="Scripts\jquery-ui-1.8.11.js" />
     <Content Include="Scripts\jquery-ui-1.8.11.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.14.custom.min.js" />
+    <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="Scripts\jquery.tablesorter.js" />
     <Content Include="Scripts\jquery.tablesorter.min.js" />
     <Content Include="Scripts\jquery.tablesorter.pager.js" />
@@ -205,7 +209,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Icons\" />
     <Folder Include="Content\Images\MaternityPictures\" />
     <Folder Include="Content\Images\SeniorPictures\" />
     <Folder Include="Content\Images\Weddings\" />

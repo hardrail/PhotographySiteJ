@@ -1,4 +1,5 @@
 ﻿/// <reference path = "/Scripts/jquery-1.5.1-vsdoc.js"/>
+/// <reference path = "/Scripts/jquery.cookie.js"/>
 var images = [];
 var totalImages;
 var currentImage = 1;
@@ -11,10 +12,12 @@ $(document).ready(function () {
         if ($('#slideshow-container').is(':hidden')) {
             $('#slideshow-container').slideDown('fast');
             $(hideSlideshow).html('Hide slideshow [-]');
+            $.cookie('slideshowVisible', true, { expires: 7 });
         }
         else {
             $('#slideshow-container').slideUp('fast');
             $(hideSlideshow).html('Show slideshow [+]');
+            $.cookie('slideshowVisible', false, { expires: 7 });
         }
     })
 
@@ -46,13 +49,21 @@ $(document).ready(function () {
     setInterval(function () {
         if (initialLoad) {
             $('#slideshowimage').attr('src', images[currentImage]).show();
-            $('#slideshow-container').slideDown('slow');
-            $('#hide-slideshow').show();
+            if ($.cookie('slideshowVisible') == 'true') {
+                $('#slideshow-container').slideDown('slow');
+                $('#hide-slideshow').show();
+            }
+            else {
+                $('#hide-slideshow').fadeIn('slow');
+                $(hideSlideshow).html('Show slideshow [+]');
+            }
             initialLoad = false;
             currentImage++;
         }
         else {
-            $('#slideshowimage').hide().attr('src', images[currentImage]).fadeIn(1000);
+            $('#slideshowimage').fadeOut('slow', function () {
+                $(this).attr('src', images[currentImage]).fadeIn(1000);
+            })
 
             if (currentImage == totalImages)
                 currentImage = 1;
