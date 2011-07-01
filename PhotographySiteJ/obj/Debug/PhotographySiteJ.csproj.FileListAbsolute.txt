@@ -26,3 +26,10 @@ C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\Photograph
 C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.dll
 C:\Users\steve\Documents\Visual Studio 2010\Projects\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.pdb
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.dll
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\bin\PhotographySiteJ.pdb
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.dll
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\bin\EntityFramework.xml
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.dll
+C:\Users\svessels\PhotographySiteJ\PhotographySiteJ\obj\Debug\PhotographySiteJ.pdb
