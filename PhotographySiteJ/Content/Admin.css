@@ -67,3 +67,13 @@
 #upload-controls label.errors { color:Red; font-size:smaller; }
 #pager img { width:15px;height:15px; cursor:pointer;}
 #page-text {width:50px; text-align:center;}
+
+#submit
+{
+	border-style:solid;
+	border-color:black;
+	cursor:pointer;
+	background-color: #528CFD;
+	color:white;
+	border-width:thin;
+}

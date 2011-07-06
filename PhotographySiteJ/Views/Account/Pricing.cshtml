@@ -17,9 +17,17 @@
 
         $('#pricing div').hover(function () {
             $(this).css('box-shadow', '0px 0px 10px');
+
+            $(this).append('<div id="type-link" style="display:none;border-style:none;box-shadow:0px 0px 0px;border-radius:0px;height:20px">Click</div>');
+
+            $('#type-link').slideDown('slow');
         })
         $('#pricing div').mouseleave(function () {
             $(this).css('box-shadow', '0px 0px 5px');
+
+            $('#type-link').slideUp('normal', function () {
+                $(this).remove();
+            })
         })
 
         var timer = setInterval(function () {
@@ -67,5 +75,8 @@
         using the contact form on the webpage to discuss your specific
         package detal.</p>
     </div>
+</div>
 
+<div id="type-link">
+    Click on the link to view the gallery
 </div>

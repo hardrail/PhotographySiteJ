@@ -92,10 +92,19 @@
 	font-size:smaller;
 	font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
 	color: #696969;
+	border-style:solid;
+	border-width:thin;
+	border-color:#E3DFDF;
 }
 
 #cmd-submit
-{ box-shadow:0px 0px 10px; }
+{ 
+	border-style:solid;
+	border-color:black;
+	cursor:pointer;
+	background-color: #528CFD;
+	color:white;
+}
 
 #valid-box { font-size:small  }
 
@@ -133,4 +142,12 @@
 {
 	border-radius:5px;
 	box-shadow: 0px 0px 5px;
+}
+
+#type-link
+{
+	position:relative;
+	display:none;
+	width:80%;
+	height:100px;
 }

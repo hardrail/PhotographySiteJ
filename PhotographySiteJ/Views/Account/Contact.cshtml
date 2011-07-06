@@ -6,13 +6,31 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $('#contact-container input').hover(function () {
-            $(this).css('box-shadow', '0px 0px 10px');
+        $('#contact-container input[type=text],textarea').focus(function () {
+            setTextHighlight($(this), true, '2px', '#528CFD');
         })
-        $('input[type=text]').mouseleave(function () {
+        $('input[type=text],textarea').focusout(function () {
+            setTextHighlight($(this), false);
+        })
+        $('#cmd-submit').hover(function () {
+            $(this).css('box-shadow','0px 0px 2px');
+        })
+        $('#cmd-submit').mouseleave(function () {
             $(this).css('box-shadow', '');
         })
     });
+
+    function setTextHighlight(obj, toggle, shadowSize, colorCode)
+    {   
+        if (toggle) {
+            $(obj).css('box-shadow', '0px 0px ' + shadowSize);
+            $(obj).css('border-color', colorCode);
+        }
+        else {
+            $(obj).css('box-shadow', '');
+            $(obj).css('border-color', '');
+        }
+    }
 </script>
 
 <h2 id="contact-header">Please fill out the form below and submit and all replies will be sent to your replyto: email address.</h2>
